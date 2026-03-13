@@ -116,12 +116,12 @@ FuncionariosApplication
 
 # 📡 Endpoints da API
 
-| Método | Endpoint                       | Descrição |
-|--------|--------------------------------|------|
-| GetAll | `/funcionarios`                | Cadastra um funcionário |
-| POST   | `/funcionarios/salvar`         | Cadastra um funcionário |
+| Método | Endpoint                       | Descrição                         |
+|--------|--------------------------------|-----------------------------------|
+| GetAll | `/funcionarios`                | Obter todos os funcionário        |
+| POST   | `/funcionarios/salvar`         | Cadastra um funcionário           |
 | PUT    | `/funcionarios/atualizar/{id}` | Atualiza um funcionário existente |
-| DELETE | `/funcionarios/deletar/{id}`   | Remove um funcionário |
+| DELETE | `/funcionarios/deletar/{id}`   | Remove um funcionário             |
 
 ---
 
